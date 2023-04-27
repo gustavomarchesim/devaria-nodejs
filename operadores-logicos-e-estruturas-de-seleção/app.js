@@ -27,7 +27,7 @@ readLine.question('Qual o ano de seu nascimento?: ', ano => {
                             console.log(`Bem vindo ao Kart, ${nome}!`)
                             break;
                         default : 
-                            console.log(`Nome não encontrado na lista de convidados, ${nome}!`);
+                            console.log(`Seu nome não encontrado na lista de convidados, ${nome}!`);
                             break;
                     }
                 })
